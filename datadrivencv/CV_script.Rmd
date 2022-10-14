@@ -1,0 +1,27 @@
+---
+title: "CV_FULL"
+output: html_document
+date: "2022-09-26"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(pagedown)
+library(datadrivencv)
+
+
+```
+
+```{r}
+
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+  full_name = "Carlos Dave C. Dumaguit",
+  data_location = "D:/Resume/data/"
+)
+
+
+
+
+```
